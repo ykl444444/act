@@ -12,10 +12,6 @@ jobs:
           sudo apt update
           sudo apt install -y openssh-server curl net-tools
 
-      - name: set pwd
-        run: |
-          echo 'runner:.&5AX$9A"rV~p-t' | sudo chpasswd
-
       - name: start service
         run: |
           sudo mkdir -p /etc/ssh/sshd_config.d
