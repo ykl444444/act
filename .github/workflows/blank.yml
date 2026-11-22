@@ -55,4 +55,4 @@ jobs:
       - name: waiting
         run: |
           echo "enter sleep"
-          sleep 14400
+          sleep 3600
